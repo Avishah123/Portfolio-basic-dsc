@@ -1,0 +1,92 @@
+:root {
+    --kprimary: #131417;
+    --kprimary2: #131417;
+    --kprimary3: rgba(255, 255, 255, 0.966);
+    --kprimary4: #1e1f26;
+    --kprimary5: #fdec6e;
+    --kheadings: rgba(255, 255, 255, 0.966);
+}
+
+html {
+    min-height: 100%;
+
+}
+
+body {
+    
+    background-color: var(--kprimary);
+    color: var(--kprimary3);
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+
+.row
+{
+    padding-top: 20px !important;
+}
+
+img {
+    width: 100%;
+}
+
+.card-education
+{
+    background-color: #1e1f26;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.plang {
+    border-radius: 6px;
+    box-shadow: 5px 0 15px rgba(0,0,0,.25);
+    position: relative;
+    transform: scale(.95);
+    transition: all .3s ease;
+}
+
+.banner-img {
+    width: 60%;
+}
+
+/* Social Media Icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+@media (max-width: 767.98px) 
+{
+    .image1-avi
+    {
+        flex-wrap: wrap-reverse !important;
+    }
+}
+
+p
+{
+    color :#55ACEE;
+}
